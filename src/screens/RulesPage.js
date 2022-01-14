@@ -14,7 +14,7 @@ export default class RulesPage extends Component {
         return(
             <View style={styles.body}>
                 <Text style={{top:50,left:20}}>
-                    rules
+                Answer all math problems correctly
                 </Text>
                 <Button title='Play'
                     onPress={()=>{

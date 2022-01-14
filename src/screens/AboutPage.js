@@ -13,8 +13,14 @@ export default class AboutPage extends Component {
     render() {
         return(
             <View style={styles.body}>
-                <Text style={{top:50,left:20}}>
-                    about
+                <Text>
+                    Super very nice game about math
+                </Text>
+                <Text>
+                    Lore 8/10
+                </Text>
+                <Text>
+                    Metacritic 95/100 89/100
                 </Text>
                 <Button title='Play'
                     onPress={()=>{
